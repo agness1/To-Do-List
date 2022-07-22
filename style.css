@@ -1,0 +1,89 @@
+body {
+min-height: 100vh;
+margin: 0;
+padding: 0;
+background-color: #ead7ff;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 60vh;
+    height: 70vh;
+    background-color: azure;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(158,87,240,1) 0%, rgba(239,158,241,1) 100%);
+    
+}
+
+h1, h3 {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #110b0b;
+}
+
+form {
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    width: 100%;
+    column-gap: 10px;
+   
+}
+input {
+    border: lightgrey;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    
+}
+.add {
+  
+    border-radius: 10%;
+    background-color: #9d00a4;
+    color: white;
+    font-family: 'Roboto';
+    border: none;
+    width: 40px;
+    height: 28px;
+    font-size: 20px;
+    
+    
+}
+.fas:hover {
+    transform:scale(1.2) ;
+}
+.fa-trash-alt {
+    color: red;
+    font-size: 20px;
+    float: right;
+    padding: 5px;
+   
+}
+li {
+    
+    list-style: none;
+    border: lightgrey;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+ul
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+    margin:0;
+}
